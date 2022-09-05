@@ -8,4 +8,4 @@ like https://github.com/openradar/xradar.
 To add your project, just open an issue with a link to the projects RTD url or 
 add your project to [docs/projects.md](https://github.com/openradar/openradar-docs/blob/main/docs/projects.md).
 
-The maintainers will take care of to hook your project's documentation into https://docs.openradarscience.org.
+The maintainers will take care of hooking your project's documentation into https://docs.openradarscience.org.
