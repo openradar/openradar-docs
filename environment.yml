@@ -1,0 +1,10 @@
+name: openradar-docs
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python>=3.10
+  - pydata-sphinx-theme
+  - pip
+  - sphinx
+  - myst-parser
