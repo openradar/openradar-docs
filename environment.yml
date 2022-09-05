@@ -7,4 +7,5 @@ dependencies:
   - pydata-sphinx-theme
   - pip
   - sphinx
+  - sphinx-design
   - myst-parser
