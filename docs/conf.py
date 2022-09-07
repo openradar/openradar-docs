@@ -28,6 +28,10 @@ source_suffix = ['.rst', '.md']
 
 html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
+html_context = {
+    "default_mode": "dark"
+}
+html_logo = "_static/openradar_logo.svg"
 
 # Add some more theme Options
 html_theme_options = {
@@ -37,9 +41,22 @@ html_theme_options = {
     'search_bar_text': 'Search this site... ',
     "navbar_align": "left",
     #'google_analytics_id': 'UA-196809533-1',
-    "navbar_end": ["navbar-icon-links.html", "search-field.html"],
+    "navbar_end": ["theme-switcher", "icon-links.html"],
+    "favicons": [
+        {
+            "rel": "icon",
+            "href": "openradar_micro.svg",
+        },
+    ],
     "logo": {
-        "text": "Open Radar Science",
         "link": "https://openradarscience.org",
-    }
+    },
+    "icon_links": [
+        {
+            "type": "local",
+            "name": "OpenRadarScience",
+            "url": "https://openradarscience.org",
+            "icon": "_static/openradar_mini.svg",
+        },
+    ],
 }
